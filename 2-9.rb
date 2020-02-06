@@ -3,3 +3,9 @@ def hello_world
 end
 
 puts hello_world
+
+def greeting(name)
+  "Hello,#{name}!"
+end
+
+puts greeting('John')
